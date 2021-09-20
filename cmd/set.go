@@ -47,11 +47,11 @@ var setCmd = &cobra.Command{
 
 		password := strings.Join(args, " ")
 
-		invalidPass := strings.ContainsAny(password, " ")
-		if invalidPass {
-			fmt.Println("The password cannot have spaces.")
-			return nil
-		}
+		// invalidPass := strings.ContainsAny(password, " ")
+		// if invalidPass {
+		// 	fmt.Println("The password cannot have spaces.")
+		// 	return nil
+		// }
 
 		keyFlags, err := cmd.Flags().GetString("key")
 		if err != nil {
