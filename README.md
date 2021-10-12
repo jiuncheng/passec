@@ -1,1 +1,1 @@
-# passec - The next Generation password encryption tool.
+# passec - A password encryption tool utilizing AES-256.
